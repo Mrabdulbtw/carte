@@ -1,0 +1,28 @@
+.Nav{
+    height: 40px;
+    width: 100%;
+     display: grid;
+     grid-auto-flow: column;
+     justify-content: end;
+     align-content: center;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.tags{
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nav a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-right: 20px;
+
+}
+.Nav a:nth-child(2){
+   font-size: 20px;
+}

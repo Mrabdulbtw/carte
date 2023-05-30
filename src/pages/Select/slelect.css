@@ -1,0 +1,121 @@
+.select-value {
+    width: 100%;
+}
+
+.select-value h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.select-value-items {
+    display: grid;
+    gap: 10px;
+    margin: auto;
+    width: 90%;
+    place-content: center;
+
+}
+
+.select-item {
+    width: 400px;
+    height: 180px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    padding: 5px;
+    column-gap: 5px;
+    border-radius: 3px;
+
+}
+
+.select-item .image-holder {
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+
+.image-holder img {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    width: 50%;
+    display: grid;
+    place-content: center;
+}
+
+.description .buttons {
+    display: flex;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+.description .buttons button {
+    width: 20px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+}
+
+.description .count {
+    background-color: #fff;
+    min-width: 30px;
+    height: 20px;
+    margin-top: 3px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+   
+
+}
+
+.description .name {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0000009e;
+}
+.description .price{
+    font-weight: 500;
+}
+.total-value {
+    height: 80px;
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+.total-value .total{
+    font-weight: 500;
+}
+
+.total-value .buttons {
+    display: grid;
+    width: 50%;
+    row-gap: 10px;
+}
+
+.total-value .buttons button {
+    border: 1px solid;
+    width: 100px;
+    outline: none;
+    text-transform: lowercase;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}

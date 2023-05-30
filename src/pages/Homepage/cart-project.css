@@ -1,0 +1,77 @@
+.Home-page {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.Home-page h3 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.product-items {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 180px);
+    gap: 25px;
+
+
+}
+.imge-holder{
+width: 100%;
+height: 60%;
+padding: 4px;
+overflow: hidden;
+}
+.imge-holder img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s,scale;
+}
+.imge-holder img:hover{
+transform: scale(1.2);
+
+}
+.items {
+    height: 300px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.decription{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    gap: 7px;
+}
+.decription .title{
+    text-transform: capitalize;
+
+}
+.decription button{
+    width: 100px;
+    margin: auto;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+
+}
+.items span{
+    color: rgb(213, 20, 220);
+    font-weight: bold;
+}
+.decription .view{
+    margin-bottom: 15px;
+    height: 15px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: black;
+    color: #fff;
+    font-size: 12px;
+}
