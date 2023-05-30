@@ -12,11 +12,11 @@ import ShopeContextProvider from './context/ShopeContext'
 function App() {
   return (
     <ShopeContextProvider>
-      <Router>
+      <Router basename='/carte'>
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/select/' element={<Select />} />
+          <Route path='/select' element={<Select />} />
         </Routes>
       </Router>
     </ShopeContextProvider>

@@ -7,7 +7,7 @@ export default function Nav() {
         <div className='Nav'>
             <div className="tags">
                 <Link to='/'>Home</Link>
-                <Link to='/select/'><ion-icon name="cart-outline"></ion-icon></Link>
+                <Link to='/select'><ion-icon name="cart-outline"></ion-icon></Link>
             </div>
         </div>
     )
