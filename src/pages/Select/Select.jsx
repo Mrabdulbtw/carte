@@ -18,7 +18,6 @@ export default function Select() {
   const getApiData = async () => {
     const res = await axios.get(API_URL)
     setProduct(res.data)
-
   }
   useEffect(() => {
     getApiData()
@@ -54,8 +53,6 @@ export default function Select() {
           </div>
         </div>
       }
-
-
     </div>
   )
 }

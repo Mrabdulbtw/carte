@@ -2,6 +2,7 @@
     width: 100%;
     height: 100vh;
 
+
 }
 
 .Home-page h3 {
@@ -20,21 +21,25 @@
 
 
 }
-.imge-holder{
-width: 100%;
-height: 60%;
-padding: 4px;
-overflow: hidden;
+
+.imge-holder {
+    width: 100%;
+    height: 60%;
+    padding: 4px;
+    overflow: hidden;
 }
-.imge-holder img{
+
+.imge-holder img {
     width: 100%;
     height: 100%;
-    transition: 0.5s,scale;
+    transition: 0.5s, scale;
 }
-.imge-holder img:hover{
-transform: scale(1.2);
+
+.imge-holder img:hover {
+    transform: scale(1.2);
 
 }
+
 .items {
     height: 300px;
     width: 200px;
@@ -42,17 +47,20 @@ transform: scale(1.2);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
-.decription{
+
+.decription {
     width: 100%;
     text-align: center;
     display: grid;
     gap: 7px;
 }
-.decription .title{
+
+.decription .title {
     text-transform: capitalize;
 
 }
-.decription button{
+
+.decription button {
     width: 100px;
     margin: auto;
     height: 25px;
@@ -62,11 +70,13 @@ transform: scale(1.2);
     outline: none;
 
 }
-.items span{
+
+.items span {
     color: rgb(213, 20, 220);
     font-weight: bold;
 }
-.decription .view{
+
+.decription .view {
     margin-bottom: 15px;
     height: 15px;
     width: 50px;
