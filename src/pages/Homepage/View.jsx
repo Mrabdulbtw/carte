@@ -29,7 +29,6 @@ export default function View() {
         <div className='view-page'>
             <div className="container">
                 <div className="right-container">
-
                     <img src={product?.image} alt="" />
                 </div>
                 <div className="left-container">
