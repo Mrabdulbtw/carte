@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-rou
 import Home from './pages/Homepage/cart-project'
 import Select from './pages/Select/Select'
 import ShopeContextProvider from './context/ShopeContext'
-
+import View from './pages/Homepage/View'
 
 
 function App() {
@@ -17,6 +17,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/select' element={<Select />} />
+          <Route path='/viewpage/:id' element={<View/>} />
+  
         </Routes>
       </Router>
     </ShopeContextProvider>

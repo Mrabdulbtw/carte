@@ -38,7 +38,6 @@ export default function Select() {
               return <Item data={product} key={product.id} />
             }
           })
-
         }
       </div>
 

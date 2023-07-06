@@ -1,6 +1,6 @@
 .Nav{
     height: 40px;
-    width: 100%;
+    width: 100vw;
      display: grid;
      grid-auto-flow: column;
      justify-content: end;

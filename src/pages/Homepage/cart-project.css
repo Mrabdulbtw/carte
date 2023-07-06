@@ -77,11 +77,6 @@
 }
 
 .decription .view {
-    margin-bottom: 15px;
-    height: 15px;
-    width: 50px;
-    border-radius: 50px;
-    background-color: black;
-    color: #fff;
-    font-size: 12px;
+     background-color: rgb(81, 80, 80);
+     color: aliceblue;
 }

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { createContext } from 'react'
 import { API_URL } from '../apidata'
 import axios from 'axios'
+
 export const ShopContext = createContext(null)
 
 
@@ -18,19 +19,17 @@ const getDefaultValue = () => {
 
 export default function ShopeContextProvider(props) {
 
-   
+
+
 
     const [ProductData, setProductData] = useState(getDefaultValue())
-
-
     //api data 
-
     const [Product, setProduct] = useState([])
     const getApiData = async () => {
         const res = await axios.get(API_URL)
         setProduct(res.data)
-
     }
+
     useEffect(() => {
         getApiData()
 
@@ -42,13 +41,10 @@ export default function ShopeContextProvider(props) {
             if (ProductData[i] > 0) {
                 let info = Product.find((pro) => pro.id === Number(i))
                 total += Math.round(info.price) * ProductData[i]
-
             }
         }
         return total;
     }
-
-
 
 
     const addCart = (itemIt) => {

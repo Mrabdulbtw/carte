@@ -20,11 +20,7 @@ export default function Home() {
         getApiData()
     }, [])
 
-
-    console.log(load);
     return (
-
-
         <div className='home-container'>
             {
                 !load ? (
